@@ -1,0 +1,26 @@
+{
+  "name": "dbevent",
+  "version": "1.0.0",
+  "description": "test from Embreo Pte Ltd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "test-embreo": "npm start --prefix ../test-embreo",
+    "dev": "concurrently \"npm start\" \"npm run test-embreo\""
+  },
+  "author": "rois abdullah",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "concurrently": "^7.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.20.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
