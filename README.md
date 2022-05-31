@@ -13,3 +13,23 @@
 # DB Relations
 ![image](https://user-images.githubusercontent.com/96837549/171123915-b303f751-1399-485e-b172-839297ec2def.png)
 
+# Dependencies on FrontEnd
+⚪ axios
+⚪ bootstrap
+⚪ react
+⚪ react-bootstrap
+⚪ react-dom
+⚪ react-router-dom
+⚪ react-scripts
+⚪ web-vitals
+
+# Dependencies on BackEnd
+⚪ bcrypt
+⚪ concurrently
+⚪ cors
+⚪ dotenv
+⚪ express
+⚪ joi
+⚪ jsonwebtoken
+⚪ mysql
+⚪ sequelize
